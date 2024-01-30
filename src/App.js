@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Body from './component/Body'
+import Browse from './component/Browse';
 
 function App() {
   return (
-    <div className="App">
-      Hiii
-    </div>
+    <>
+     <Body/>
+    </>
+ 
   );
 }
 
